@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,500&display=swap');
+body{
+    font-family: poppins, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 128, 185);
+}
+h2{
+    text-align: center;
+}
+label{
+    font-size: larger;
+
+}
+
+.taskFormat{
+    border-radius: 12px;
+    background-color: rgb(253, 144, 144);
+    width: max-content;
+    padding: 45px;
+    justify-content: space-between;
+}
+.button{
+    text-align: center;
+}
+
+.button button{
+    font-family: poppins, sans-serif;
+    /* text-transform: uppercase; */
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(142, 224, 91);
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#inputValues{
+    width: 400px;
+    height: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: medium;
+}
+#inputValues::placeholder{
+    color: black;
+    font-family: poppins,sans-serif;
+}
+#inputValues:focus{
+    outline: none;
+    border:1px solid black ;
+    box-shadow: 0 0 5px rgb(76, 175, 80, 0.5);
+}
+.check-box{
+    padding: 9px;
+    /* display: flex; */
+    margin-bottom: 10px;
+}
+.hidden-checkbox{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4caf50;
+    margin-right: 10px; 
+}
+.styled-button {
+    font-family: poppins, sans-serif;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(142, 224, 91);
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  

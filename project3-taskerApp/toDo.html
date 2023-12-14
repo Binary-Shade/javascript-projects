@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>todoapp</title>
+</head>
+<body onload="init()">
+    <div class="taskFormat" id="taskBox">
+    <h2>TO-DO app</h2>
+    <label for="text">Enter the task :</label>
+    <input type="text" name="" id="inputValues" placeholder="Add Tasks"> <br>
+    <p id="demo"></p>
+    <div class="button">
+        <button onclick="addCheckBox()" class="styled-button">Add task</button>
+        <button onclick="removeBoxes()" class="styled-button">Remove task</button>  <br>
+    </div>
+    <div class="check-box" id="check-box"></div>
+    </div>
+</body>
+</html>
